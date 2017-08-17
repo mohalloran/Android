@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="username"
+        android:summary="@string/pref_summary_username"
+        android:title="@string/pref_user_name">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="password"
+        android:password="true"
+        android:summary="@string/pref_summary_password"
+        android:title="@string/pref_password" >
+        
+        
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="email"
+        android:inputType="textEmailAddress"
+        android:summary="@string/pref_summary_email"
+        android:title="@string/pref_email" >
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="emailpassword"
+        android:password="true"
+        android:summary="@string/pref_summary_email_password"
+        android:title="@string/pref_email_password" >
+    </EditTextPreference>
+    
+    <EditTextPreference
+        android:key="outgoingmailserverhost"
+        android:summary="@string/pref_summary_outgoing_mail_server_host"
+        android:title="@string/pref_outgoing_mail_server_host" >
+    </EditTextPreference>
+    
+
+</PreferenceScreen>

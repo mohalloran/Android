@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/activity_grey" >
+      
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/storage_intro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+		android:layout_marginBottom="5dp" style="@style/intro_blurb" />
+     
+     <TextView
+        android:id="@+id/storage_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:scrollHorizontally="true"
+		android:layout_marginBottom="15dp" style="@style/edit_text"/>
+
+    	 
+     <LinearLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="50dp"
+    	 android:orientation="horizontal">
+    	
+         <TextView 
+             android:layout_width="wrap_content"
+         	 android:layout_height="wrap_content"
+         	 android:text="@string/storage_location_label"
+             android:labelFor="@+id/storage_location"
+             style="@style/label"
+             />
+         
+     	 <EditText 
+         	android:id="@+id/storage_location"
+         	android:layout_width="300dp"
+         	android:layout_height="wrap_content"
+         	android:hint="@string/storage_location_hint"
+         	android:text="@string/documents_directory"
+         	style="@style/edit_text"/>
+     	
+     </LinearLayout>
+     
+     
+      <LinearLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="70dp"
+    	 android:orientation="horizontal">
+     	 
+          <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    style="@style/label">
+                    <RadioButton android:id="@+id/radio_storage_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/storage_update"
+                        android:checked="true"
+                        style="@style/label"/>
+                    <RadioButton android:id="@+id/radio_storage_truncate_insert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/label"
+                        android:text="@string/storage_clean_insert"/>
+           </RadioGroup>
+     	 
+      </LinearLayout>
+     
+     
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+    	 android:layout_height="70dp"
+    	 android:orientation="horizontal">
+    	 
+     	<Button 
+           android:id="@+id/save_storage_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/save_to_storage"
+           style="@style/label"
+           />
+    
+     	 <Button 
+           android:id="@+id/update_database_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/update_database_from_storage"
+           style="@style/label"
+           />
+       </LinearLayout>
+     
+  </LinearLayout>
+
+</ScrollView>

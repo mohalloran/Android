@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">hello</string>
+    <string name="action_settings">settings</string>
+    <string name="app_name">System Account Logins</string>
+    <string name="app_preferences">Application Preferences</string>
+    <string name="app_name_criteria">RestaurantFinder - Criteria</string>
+    <string name="app_name_reviews">RestaurantFinder - Reviews</string>
+    <string name="app_name_review">RestaurantFinder - Review</string>
+    <string name="app_short_name">Restaurants</string>
+    <string name="menu_get_reviews">Get reviews</string>
+    <string name="menu_web_review">Get full review</string>
+    <string name="menu_map_review">Map location</string>
+    <string name="menu_call_review">Call restaurant</string>
+    <string name="menu_change_criteria">Change review criteria</string>
+    <string name="menu_get_next_page">Get next page of results</string>
+    <string name="intro_blurb_detail">Review details</string>
+    <string name="location_entry_label">Location (City, ST):</string>
+    <string name="location_label">Location:</string>
+    <string name="cuisine_label">Cuisine:</string>
+    <string name="review_label">Review:</string>
+    <string name="rating_label">Rating:</string>
+    <string name="name_label">Name:</string>
+    <string name="title_label">Title:</string>
+    <string name="author_label">Author:</string>
+    <string name="link_label">Link:</string>
+    <string name="phone_label">Phone:</string>
+    <string name="alert_label">Sorry!</string>
+    <string name="location_not_supplied_message">Location must be specified \n(City, State [Country]).</string>
+    <string name="no_phone_message">No phone number is available to dial for this review.</string>
+    <string name="no_location_message">No location is available to map for this review.</string>
+    <string name="no_link_message">No URL is available to open for this review.</string>
+    <string name="get_reviews_button_label">Get Reviews</string>
+    <string name="intro_blurb_criteria">Login to Access the Application</string>
+    <string name="user_name_label">User Name:</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="user_password_label">User Password:</string>
+    <string name="user_password_hint">User Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="pref_summary_username">Pleas Enter User Name</string>
+    <string name="pref_user_name">User Name</string>
+    <string name="pref_summary_password">PleasenEnter User Password</string>
+    <string name="pref_password">User Password</string>
+    <string name="pref_summary_email">Please Enter User Email</string>
+    <string name="pref_email">User Email</string>
+    <string name="pref_summary_email_password">Pleasen Enter User Email Password</string>
+    <string name="pref_email_password">User Email Password</string>
+    <string name="pref_summary_outgoing_mail_server_host">Please Enter SMTP Host(Outgoing mail Server)</string>
+    <string name="pref_outgoing_mail_server_host">SMTP Host(Outgoing mail server)</string>
+    <string name="no_preferences_created">Please Register To Use this App.</string>
+    <string name="invalid_username_password">Enter a valid user name password</string>
+    <string name="username_password_dontmatch">User Name Password don\'t match what was previously registered</string>
+    <string name="title_activity_accounts_list">AccountsListActivity</string>
+    <string name="action_register">Register</string>
+    <string name="registered">Registered</string>
+    <string name="missing_preferences">User Name,Password and Email are required preferences .Please complete the Registration..</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="email_subject_text">Account was created for The App System Accounts Login</string>
+    <string name="system_account_server_name">Server Name</string>
+    <string name="system_account_description">Description</string>
+    <string name="system_account_application_name">Application Name</string>
+    <string name="populate_system">Instert Test Data</string>
+    <string name="new_account">New Account</string>
+    <string name="send_details">Send Details</string>
+    <string name="storage">External Storage</string>
+    <string name="options_menu">Options</string>
+    <string name="title_activity_account_detail">Account Details</string>
+    <string name="intro_detail_blurb_criteria">System Account Details</string>
+    <string name="user_name">MOHALLO</string>
+    <string name="application_name_label">Application Name:</string>
+    <string name="application_name_text">Application Name</string>
+    <string name="server_name_label">Server Name:</string>
+    <string name="server_name_text">Server Name</string>
+    <string name="server_login_id_label">Server Login Id:</string>
+    <string name="server_login_id_text">Server Login Id</string>
+    <string name="server_login_password_label">Server Login Pass:</string>
+    <string name="server_login_password_text">Server Login Pass</string>
+    <string name="created_date_label">Created Date:</string>
+    <string name="created_date_Text">Created Date</string>
+    <string name="expired_label">Expired:</string>
+    <string name="description_label">Description:</string>
+    <string name="description_text">Enter Description </string>
+    <string name="notes_label">Notes:</string>
+    <string name="notes_text">Enter Notes</string>
+    <string name="display_notes">Display Notes</string>
+    <string name="hide_notes">Hide Notes</string>
+    <string name="environment_label">Environment:</string>
+    <string name="action_share">Share</string>
+    <string name="save">Save</string>
+    <string name="save_to_storage">Save To File System</string>
+    <string name="update_database_from_storage">Load Database</string>
+    <string name="storage_location_label">File Location:</string>
+    <string name="storage_location_hint">Directory/File Name</string>
+    <string name="storage_update">Update</string>
+    <string name="storage_clean_insert">Clean and Insert</string>
+    <string name="invalid_location">Location Field must be Entered in the format of \'Directory Name/File Name\'</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="missing_details">Please provide entries for:\n\nApplication Name \nServer Name\nServer Login Id\nServer Login Pass </string>
+
+     <string name="title_activity_storage">File Storage</string>
+     <string name="documents_directory">Documents/</string>
+    
+    
+    <string name="storage_intro">This page allows the Accounts Data in the Database to be loaded to a Excell file *.xls file to a Directory under the storage root 
+        or loaded from the Excell file *.xls External storage file to the Database.Note server name and login id must be unique to be treated as a new record and the file must be an Excell file.</string>
+        
+     <string name="alert_delete_storage">Are you sure you want to remove all records from the Database and replace with the records in the Specified file.</string>
+     <string name="ok_cancel_dialog">OK Cancel Dialog</string>
+     <string name="file_not_found">File not found. </string>
+     <string name="file_parsing_error">File parsing error.Validate the contents of the file</string>
+     <string name="file_write_error">Error writing to the File</string>
+     
+     <string name="delete_system">Delete System Accounts</string>
+     <string name="record_deletion_failure">Record Deletion failure.Record does not exist or there is an issue with the Database</string>
+     <string name="record_deletion_success">Record Deletion success</string>
+     
+     <string name="search_hint">Search Accounts</string>
+     
+     <string name="searchby">Search By</string>
+     <string name="application_name">Application Name</string>
+     <string name="server_name">Server Name</string>
+     <string name="select_search_criteria">Select Search By Option from the Menu Options.</string>
+     
+     <string name="refresh">Refresh List</string>
+     
+     <string name="xlstemplatecreated">XLS File sad.xls Template Created in the Documents directory.Populate the database from that template</string>
+     
+     <string name="generator_logo">Generate Password</string>
+     
+     <string name="alert_generate_password">Are you sure you want to generate a new password.</string>
+     <string name="ok_cancel_generate_dialog">Password Generator Dialog</string>
+    
+    <string-array name="environments">
+        <item>Development</item>
+        <item>Test (Instance 1)</item>
+        <item>Test (Instance 2)</item>
+        <item>Test (Instance 3)</item>
+        <item>Test (Instance 4)</item>
+        <item>E2E</item>
+        <item>Production</item>
+    </string-array>
+
+    
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        
+        android:paddingBottom="10dp"
+		android:background="@drawable/account_list_item"
+        android:paddingTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/system_account_expired_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="4dp" />
+        
+        <TextView
+            android:id="@+id/system_account_servername_textview"
+            style="@style/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/system_account_expired_checkbox"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/system_account_server_name"
+            android:hint="@string/system_account_server_name"
+            android:textStyle="bold" />
+        
+
+        <TextView
+            android:id="@+id/system_account_application_name_textview"
+            style="@style/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/system_account_servername_textview"
+            android:gravity="left"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/system_account_application_name"
+            android:hint="@string/system_account_application_name"
+            android:textStyle="bold" />
+        
+        
+
+        <TextView
+            android:id="@+id/system_account_description_textview"
+            style="@style/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/system_account_application_name_textview"
+            android:layout_toLeftOf="@id/system_account_expired_checkbox"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/system_account_description"
+            android:hint="@string/system_account_description"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

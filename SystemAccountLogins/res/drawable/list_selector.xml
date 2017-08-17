@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/accent_green" android:state_selected="true"/>
+    <item android:drawable="@color/accent_green"/>
+    
+   <item android:state_hovered="true" android:drawable="@color/accent_green"/>
+	<item android:state_focused="true" android:drawable="@color/accent_green"/> 
+	<item android:state_active="true" android:drawable="@color/accent_green"/> 
+    
+
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- list_item_crime references this .when view that references this drawable is in Activated state use the value of android drawable -->
+    <item 
+        android:state_activated="true" 
+        android:drawable="@android:color/darker_gray"
+        
+        />
+
+</selector>

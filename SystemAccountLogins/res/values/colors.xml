@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<drawable name="solid_red">#f00</drawable>
+	<drawable name="solid_blue">#0000ff</drawable>
+	<drawable name="solid_green">#f0f0</drawable>
+	
+	<color name="sa_green">#14a804</color>
+    <color name="stacked_green">#118504</color>
+    <color name="accent_green">#97e08f</color>
+    <color name="pressed">#CC97e08f</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="lightGray">#D3D3D3</color>
+
+</resources>
+
+<!-- usage example
+	
+	<TextView android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textAlign="center"
+	android:background="@drawable/solid_red"/>
+	
+-->
